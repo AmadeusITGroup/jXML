@@ -1,0 +1,12 @@
+{
+  "ext:Envelope":{
+    "_attr":"test",
+    "_xmlns:ext":"http://schemas.xmltest.org/test/ext/",
+    "_xmlns:in":"http://schemas.xmltest.org/test/in/",
+    "in:element":{
+      "_attr":"test2",
+      "_newattr":"otherAttribute",
+      "__text":"Header 1"
+    }
+  }
+}

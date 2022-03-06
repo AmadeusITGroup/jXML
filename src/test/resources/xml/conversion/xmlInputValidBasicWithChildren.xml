@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ext:Envelope attr="test" xmlns:ext="http://schemas.xmltest.org/test/ext/"
+              xmlns:df="http://schemas.xmltest.org/test/df/"
+              xmlns:as="http://schemas.xmltest.org/test/as/">
+  <df:first newattr="firstAttribute" attr="secondAttribute">
+    DF Value
+  </df:first>
+  <as:second lasattr="Last Attribute">
+    AS value
+  </as:second>
+  <as:third/>
+</ext:Envelope>

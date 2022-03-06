@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ext:Envelope attr="test" xmlns:ext="http://schemas.xmltest.org/test/ext/" xmlns:in="http://schemas.xmltest.org/test/in/">
+  <in:element attr="test2" newattr="otherAttribute">
+    Header 1
+  </in:element>
+</ext:Envelope>

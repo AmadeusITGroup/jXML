@@ -1,0 +1,13 @@
+{
+  "Envelope":{
+    "_attr":"test",
+    "header":[
+      {
+        "__text":"Header 1"
+      },
+      {
+        "__text":"Header 2"
+      }
+    ]
+  }
+}

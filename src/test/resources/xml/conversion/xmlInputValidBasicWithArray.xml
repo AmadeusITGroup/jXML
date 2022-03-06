@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ext:Envelope attr="test" xmlns:ext="http://schemas.xmlsoap.org/soap/ext/" xmlns:in="http://schemas.xmlsoap.org/soap/in/">
+  <in:header>
+    Header 1
+  </in:header>
+  <in:header>
+    Header 2
+  </in:header>
+</ext:Envelope>

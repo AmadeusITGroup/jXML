@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope>
+    <Header>
+        <Trans Id="UsernameToken-1">234</Trans>
+        <TransactionFlowLink />
+        <Security>
+            <UsernameToken Id="UsernameToken-1">
+                <Username>PLUTO00SSO</Username>
+            </UsernameToken>
+        </Security>
+    </Header>
+    <Body>
+        <Actions Version="9.00" Action="Grant">
+            <Actor Unit="UNIT-A" Type="USER">AAAAAA9Z9ZZZHHHHHIII0A==</Actor>
+            <Rights Elements="first_and_second" Channel="Direct" RecordID="ID_1" Active="Yes" ActivationDate="2019-03-18">
+                <Role Type="Composite" Base="A" Organization="AAA">BASE_MANAGEMENT</Role>
+                <InfoSet Data="D1" App="app" InfoSetList="Value" Org="O-3">ABC</InfoSet>
+            </Rights>
+            <Rights Elements="first" Channel="Direct" RecordID="ID_2" Active="Yes" ActivationDate="2019-03-19">
+                <Role Type="Composite" Base="A" Organization="ABA">SPACE_MANAGEMENT</Role>
+                <InfoSet Data="D7" App="APP" InfoSetList="Value" Org="O-2">ABC/*</InfoSet>
+            </Rights>
+            <Rights Elements="second" Channel="Direct" RecordID="ID_3" Active="Yes" ActivationDate="2019-03-20">
+                <Role Type="Composite" Base="B" Organization="ABC">BASE_MANAGEMENT</Role>
+                <InfoSet Data="D5" App="cat" InfoSetList="Value" Org="O-1">ABC/*/DE</InfoSet>
+            </Rights>
+        </Actions>
+    </Body>
+</Envelope>

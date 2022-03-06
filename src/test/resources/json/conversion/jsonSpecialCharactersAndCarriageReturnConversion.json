@@ -1,0 +1,6 @@
+{
+  "soap:Envelope":{
+    "_xmlns:soap":"http://schemas.xmlsoap.org/soap/envelope/",
+    "__text":"<\"Sauron\"> & 'Company' and Mickey Mouse!"
+  }
+}

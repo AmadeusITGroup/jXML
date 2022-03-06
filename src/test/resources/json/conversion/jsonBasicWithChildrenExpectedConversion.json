@@ -1,0 +1,10 @@
+{
+  "ext:Envelope":{
+    "_attr":"test",
+    "_xmlns:ext":"http://schemas.xmlsoap.org/soap/ext/",
+    "_xmlns:in":"http://schemas.xmlsoap.org/soap/in/",
+    "in:header":{
+      "__text":"Header 1"
+    }
+  }
+}

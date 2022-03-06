@@ -1,0 +1,7 @@
+{
+  "soap:Envelope":{
+    "_attr":"test",
+    "_xmlns:soap":"http://schemas.xmlsoap.org/soap/envelope/",
+    "__text":"La vispa Teresa avea tra l’erbetta A volo sorpresa gentil farfalletta."
+  }
+}

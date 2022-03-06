@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope attr="test">
+  <header>
+    Header 1
+  </header>
+  <header>
+    Header 2
+  </header>
+</Envelope>
